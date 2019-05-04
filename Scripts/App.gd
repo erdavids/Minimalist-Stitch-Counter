@@ -31,5 +31,7 @@ func ChangeTextColors(node):
 	for n in node.get_children():
 		if n.get_class() == "Label" or n.get_class() == "LineEdit":
 			n.add_color_override("font_color", Color(get_node("/root/Global").r_t, get_node("/root/Global").g_t, get_node("/root/Global").b_t, 1))
+			if n.get_class() == "LineEdit":
+				n.add_color_override("cursor_color", Color(get_node("/root/Global").r_t, get_node("/root/Global").g_t, get_node("/root/Global").b_t, 1))
 		if n.get_children().size() > 0:
 			ChangeTextColors(n)

@@ -159,6 +159,7 @@ valign = 1
 [node name="Tween" type="Tween" parent="Options/AdditionalOptions"]
 
 [node name="LoadButtons" type="Node2D" parent="Options"]
+editor/display_folded = true
 position = Vector2( 50, 50 )
 script = ExtResource( 8 )
 
@@ -380,19 +381,19 @@ script = ExtResource( 13 )
 __meta__ = {
 "_edit_group_": true
 }
-r_t = 0.329
-g_t = 0.478
-b_t = 0.51
-r_b = 0.243
-g_b = 0.675
-b_b = 0.659
+r_t = 0.753
+g_t = 0.424
+b_t = 0.518
+r_b = 0.973
+g_b = 0.694
+b_b = 0.584
 
 [node name="Label" type="Label" parent="Options/ColorButtons/Color2"]
 margin_right = 150.0
 margin_bottom = 50.0
 custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 0.505882, 0.505882, 0.505882, 1 )
-text = "Blue"
+text = "Orange"
 valign = 1
 
 [node name="Color3" type="TextureButton" parent="Options/ColorButtons"]
@@ -416,7 +417,145 @@ margin_right = 150.0
 margin_bottom = 50.0
 custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 0.505882, 0.505882, 0.505882, 1 )
-text = "Green"
+text = "Murky"
+valign = 1
+
+[node name="Color4" type="TextureButton" parent="Options/ColorButtons"]
+margin_left = 576.0
+margin_top = 150.0
+margin_right = 726.0
+margin_bottom = 200.0
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_group_": true
+}
+r_t = 0.329
+g_t = 0.478
+b_t = 0.51
+r_b = 0.243
+g_b = 0.675
+b_b = 0.659
+
+[node name="Label" type="Label" parent="Options/ColorButtons/Color4"]
+margin_right = 150.0
+margin_bottom = 50.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.505882, 0.505882, 0.505882, 1 )
+text = "Teal"
+valign = 1
+
+[node name="Color5" type="TextureButton" parent="Options/ColorButtons"]
+margin_left = 576.0
+margin_top = 200.0
+margin_right = 726.0
+margin_bottom = 250.0
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_group_": true
+}
+r_t = 0.937
+g_t = 0.271
+b_t = 0.4
+r_b = 0.965
+g_b = 0.604
+b_b = 0.604
+
+[node name="Label" type="Label" parent="Options/ColorButtons/Color5"]
+margin_right = 150.0
+margin_bottom = 50.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.505882, 0.505882, 0.505882, 1 )
+text = "Pink"
+valign = 1
+
+[node name="Color6" type="TextureButton" parent="Options/ColorButtons"]
+margin_left = 576.0
+margin_top = 250.0
+margin_right = 726.0
+margin_bottom = 300.0
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_group_": true
+}
+r_t = 0.6
+g_t = 0.722
+b_t = 0.569
+r_b = 0.208
+g_b = 0.361
+b_b = 0.49
+
+[node name="Label" type="Label" parent="Options/ColorButtons/Color6"]
+margin_right = 150.0
+margin_bottom = 50.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.505882, 0.505882, 0.505882, 1 )
+text = "Blue"
+valign = 1
+
+[node name="Color7" type="TextureButton" parent="Options/ColorButtons"]
+margin_left = 576.0
+margin_top = 300.0
+margin_right = 726.0
+margin_bottom = 350.0
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_group_": true
+}
+r_t = 1.0
+g_t = 1.0
+b_t = 1.0
+r_b = 0.522
+g_b = 0.757
+b_b = 0.914
+
+[node name="Label" type="Label" parent="Options/ColorButtons/Color7"]
+margin_right = 150.0
+margin_bottom = 50.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.505882, 0.505882, 0.505882, 1 )
+text = "Light Blue"
+valign = 1
+
+[node name="Color8" type="TextureButton" parent="Options/ColorButtons"]
+margin_left = 576.0
+margin_top = 350.0
+margin_right = 726.0
+margin_bottom = 400.0
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_group_": true
+}
+r_t = 1.0
+g_t = 1.0
+b_t = 1.0
+
+[node name="Label" type="Label" parent="Options/ColorButtons/Color8"]
+margin_right = 150.0
+margin_bottom = 50.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.505882, 0.505882, 0.505882, 1 )
+text = "Black"
+valign = 1
+
+[node name="Color9" type="TextureButton" parent="Options/ColorButtons"]
+margin_left = 576.0
+margin_top = 400.0
+margin_right = 726.0
+margin_bottom = 450.0
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_group_": true
+}
+r_b = 1.0
+g_b = 1.0
+b_b = 1.0
+
+[node name="Label" type="Label" parent="Options/ColorButtons/Color9"]
+margin_right = 150.0
+margin_bottom = 50.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.505882, 0.505882, 0.505882, 1 )
+text = "White"
 valign = 1
 
 [node name="Tween" type="Tween" parent="Options/ColorButtons"]
@@ -428,7 +567,6 @@ position = Vector2( 0, 1374 )
 script = ExtResource( 14 )
 
 [node name="Per" type="Node2D" parent="Options/RowCounter"]
-editor/display_folded = true
 position = Vector2( 144, -230 )
 
 [node name="PerRow" type="Label" parent="Options/RowCounter/Per"]
@@ -662,6 +800,12 @@ valign = 1
 [connection signal="pressed" from="Options/ColorButtons/Color1" to="Options/ColorButtons/Color1" method="ColorPressed"]
 [connection signal="pressed" from="Options/ColorButtons/Color2" to="Options/ColorButtons/Color2" method="ColorPressed"]
 [connection signal="pressed" from="Options/ColorButtons/Color3" to="Options/ColorButtons/Color3" method="ColorPressed"]
+[connection signal="pressed" from="Options/ColorButtons/Color4" to="Options/ColorButtons/Color4" method="ColorPressed"]
+[connection signal="pressed" from="Options/ColorButtons/Color5" to="Options/ColorButtons/Color5" method="ColorPressed"]
+[connection signal="pressed" from="Options/ColorButtons/Color6" to="Options/ColorButtons/Color6" method="ColorPressed"]
+[connection signal="pressed" from="Options/ColorButtons/Color7" to="Options/ColorButtons/Color7" method="ColorPressed"]
+[connection signal="pressed" from="Options/ColorButtons/Color8" to="Options/ColorButtons/Color8" method="ColorPressed"]
+[connection signal="pressed" from="Options/ColorButtons/Color9" to="Options/ColorButtons/Color9" method="ColorPressed"]
 [connection signal="pressed" from="Options/RowCounter/Per/PerIncrease" to="Options/RowCounter" method="StitchPerRowIncrease"]
 [connection signal="pressed" from="Options/RowCounter/Per/PerDecrease" to="Options/RowCounter" method="StitchPerRowDecrease"]
 [connection signal="pressed" from="Options/RowCounter/Row/RowIncrease" to="Options/RowCounter" method="RowIncrease"]

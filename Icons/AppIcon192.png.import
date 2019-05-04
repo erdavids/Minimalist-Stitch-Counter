@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ice_tile.png-29575759d34cdbb156c9825aaf31c468.stex"
+path="res://.import/AppIcon192.png-551a6601a92a83293e3762f8b2467e1c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ice_tile.png"
-dest_files=[ "res://.import/ice_tile.png-29575759d34cdbb156c9825aaf31c468.stex" ]
+source_file="res://Icons/AppIcon192.png"
+dest_files=[ "res://.import/AppIcon192.png-551a6601a92a83293e3762f8b2467e1c.stex" ]
 
 [params]
 
