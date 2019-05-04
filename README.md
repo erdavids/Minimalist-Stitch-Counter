@@ -6,7 +6,7 @@ This project provides a unique stitch counter for crocheting and knitting projec
 
 ### Basic Usage
 
-When the app is launched, a single stitch counter is available. Use the **-** and **+** buttons to **decrease** and **increase** the count. This can be useful for keeping count when you're not sure how many stitches you need, or when you just want basic counter to reset yourself.
+When the app is launched, a single stitch counter is available. Use the **-** and **+** buttons to **decrease** and **increase** the count. This can be useful for keeping count when you're not sure how many stitches you need, or you just want a basic counter.
 
 To clear the stitches, **double-tap** the Reset button. On the first tap, the **Reset** button will do a soft prompt for confirmation by changing to **Reset?**, providing 1.5 seconds to confirm. If you do not want to confirm, simply don't tap it again and it will time out. Keep in mind that the functionality changes if you have chosen to use the **row counter** as well.
 
@@ -14,7 +14,7 @@ To clear the stitches, **double-tap** the Reset button. On the first tap, the **
 
 To enable the row counter, select **Options -> Row Count**. The app will shift to include the row counter. Three new elements have been introduced.
 
-The **St/R** value indicates how many stitches you need to counter **per round**. For example, if **St/R** is set to 5, when you increase the main stitch counter to 5, it will reset to 0 because you have completed a row.
+The **St/R** value indicates how many stitches are needed **per round**. For example, if **St/R** is set to 5, when you increase the main stitch counter to 5, it will reset to 0 because you have completed a row.
 
 The **Rows** value indicates how many rows (or rounds) you expect in your project.
 
@@ -25,20 +25,6 @@ To remove the row counter, simply select **Options -> Row Count** again. The dat
 To clear the completed rows in the **Ratio**, you must **triple-tap** the reset button
 
 To clear the **St/R** and **Rows** values, you must tap the reset button **four times**.
-
-### Reset
-
-One tap    -> Confirmation
-
-Two taps   -> Reset Main Stitch Count
-
-If row counter is visible:
-
-Three taps -> Reset Main Stitch Count and Completed Rows
-
-Four taps  -> Reset Everything
-
-
 
 ### Saving Projects
 
@@ -56,15 +42,32 @@ Select **Options -> Load** to display a list of saved projects (if any exist). S
 
 Remember that if you make updates after loading a project, you **must save to keep your changes**.
 
+To remove the list of projects from the view, either select **Load** again or select the parent **Object** button to remove all visible options.
+
 ### Deleting Projects
 
-Select **Options -> Load** to display a list of saved projects (if any exists).
+Select **Options -> Load** to display a list of saved projects (if any exist).
 
-Above the project list is a **Delete** button. If you select **Delete**, then select a project, it will be deleted **without a prompt for confirmtaion**.
+Above the project list is a **Delete** button. If you select **Delete**, then select a project, it will be deleted **without a prompt for confirmation**.
 
 ### Color Customization
 
-The application provides access to 9 color options. Select **Options -> Color** to see available colors, and select any to see the changes. The most recent color choice is saved and persists between app launches.
+The application provides access to 9 color options. Select **Options -> Color** to see available colors, and select any to see the changes. 
 
+The most recent color choice is saved and persists between app launches.
+
+To remove the list of projects from the view, either select **Color** again or select the parent **Object** button to remove all visible options.
+
+### Reset Details
+
+One tap    -> **Confirmation (Nothing is Reset)**
+
+Two taps   -> **Reset Main Stitch Count**
+
+If row counter is visible:
+
+Three taps -> **Reset Main Stitch Count and Completed Rows**
+
+Four taps  -> **Reset Everything**
 
 
