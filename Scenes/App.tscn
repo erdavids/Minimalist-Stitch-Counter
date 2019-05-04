@@ -24,7 +24,7 @@
 [ext_resource path="res://Scenes/Reset.gd" type="Script" id=22]
 [ext_resource path="res://Scenes/ResetButton.gd" type="Script" id=23]
 
-[sub_resource type="StyleBoxTexture" id=3]
+[sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 5 )
 region_rect = Rect2( 0, 0, 150, 50 )
 
@@ -72,7 +72,7 @@ script = ExtResource( 4 )
 margin_left = 576.0
 margin_right = 796.0
 margin_bottom = 50.0
-custom_styles/focus = SubResource( 3 )
+custom_styles/focus = SubResource( 1 )
 custom_styles/normal = SubResource( 2 )
 custom_fonts/font = ExtResource( 3 )
 custom_colors/selection_color = Color( 0, 0, 0, 0 )
@@ -159,7 +159,6 @@ valign = 1
 [node name="Tween" type="Tween" parent="Options/AdditionalOptions"]
 
 [node name="LoadButtons" type="Node2D" parent="Options"]
-editor/display_folded = true
 position = Vector2( 50, 50 )
 script = ExtResource( 8 )
 
@@ -324,8 +323,8 @@ valign = 1
 
 [node name="DeleteButton" type="TextureButton" parent="Options/LoadButtons"]
 editor/display_folded = true
-margin_left = 576.0
-margin_right = 726.0
+margin_left = 546.0
+margin_right = 696.0
 margin_bottom = 50.0
 script = ExtResource( 10 )
 __meta__ = {

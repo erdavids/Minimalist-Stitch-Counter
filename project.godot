@@ -17,6 +17,8 @@ _global_script_class_icons={
 
 config/name="Minimalist-Stitch-Counter"
 run/main_scene="res://Scenes/App.tscn"
+boot_splash/image="res://ice_tile.png"
+boot_splash/bg_color=Color( 0.713726, 0.713726, 0.713726, 1 )
 config/icon="res://icon.png"
 
 [autoload]

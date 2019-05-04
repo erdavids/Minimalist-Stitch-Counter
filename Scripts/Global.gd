@@ -32,9 +32,13 @@ var save_path = "user://save-file.cfg"
 var config = ConfigFile.new()
 var load_resource = config.load(save_path)
 
+var color_path = "user://color-file.cfg"
+var color_config = ConfigFile.new()
+var color_resource = color_config.load(color_path)
 
 func _ready():
 	num_saved = config.get_sections().size()
+	CreateColorConfig()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
@@ -85,3 +89,47 @@ func CheckRowProgress():
 	if row_state == true and current_stitch_count == stitch_per_row:
 		current_stitch_count = 0
 		completed_rows += 1
+		
+func CreateColorConfig():
+	if color_config.get_value("Color", "saved", false) == false:
+		SaveColors()
+	else:
+		LoadColors()
+	
+func SaveColors():
+	color_config.set_value("Color", "r_t", r_t)
+	color_config.set_value("Color", "g_t", g_t)
+	color_config.set_value("Color", "b_t", b_t)
+	color_config.set_value("Color", "r_b", r_b)
+	color_config.set_value("Color", "g_b", g_b)
+	color_config.set_value("Color", "b_b", b_b)
+	color_config.set_value("Color", "saved", true)
+	
+	color_config.save(color_path)
+	update_colors = true
+	
+func LoadColors():
+	r_t = color_config.get_value("Color", "r_t", r_t)
+	g_t = color_config.get_value("Color", "g_t", g_t)
+	b_t = color_config.get_value("Color", "b_t", b_t)
+	r_b = color_config.get_value("Color", "r_b", r_b)
+	g_b = color_config.get_value("Color", "g_b", g_b)
+	b_b = color_config.get_value("Color", "b_b", b_b)
+	
+	update_colors = true
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

@@ -1,0 +1,8 @@
+[gd_scene format=2]
+
+[node name="SplashScreen" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 592.0
+margin_bottom = 1036.0
+color = Color( 0.466667, 0.74902, 0.729412, 1 )

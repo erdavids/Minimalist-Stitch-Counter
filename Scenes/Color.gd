@@ -22,4 +22,4 @@ func ColorPressed():
 	get_node("/root/Global").g_b = g_b
 	get_node("/root/Global").b_b = b_b
 	
-	get_node("/root/Global").update_colors = true
+	get_node("/root/Global").SaveColors()
