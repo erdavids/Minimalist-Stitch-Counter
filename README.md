@@ -5,7 +5,7 @@ This project provides a unique stitch counter for crocheting and knitting projec
 Download the app [here](https://play.google.com/store/apps/details?id=com.buffed.stitch)
 
 
-![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-020544.png) ![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-132457.png)
+![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-020544.png) | ![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-132457.png)
 
 ## User Guide
 
