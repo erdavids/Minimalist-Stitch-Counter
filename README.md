@@ -3,7 +3,7 @@
 This project provides a unique stitch counter for crocheting and knitting projects. Users are able to count stitches, specify project row total, track progress, save/load files, and customize interface color all from the same screen. In the spirit of minimalism, this was an attempt to keep things as simple as possible while providing the ability to cusomize the appearance of the app.
 
 Download the app [here](https://play.google.com/store/apps/details?id=com.buffed.stitch)
-
+ | 
 :-------------------------:|:-------------------------:
 ![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-020544.png)  |  ![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-132457.png)
 
