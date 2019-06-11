@@ -2,6 +2,8 @@
 
 This project provides a unique stitch counter for crocheting and knitting projects. Users are able to count stitches, specify project row total, track progress, save/load files, and customize interface color all from the same screen. In the spirit of minimalism, this was an attempt to keep things as simple as possible while providing the ability to cusomize the appearance of the app.
 
+<a href='https://play.google.com/store/apps/details?id=com.buffed.stitch&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+
 Download the app [here](https://play.google.com/store/apps/details?id=com.buffed.stitch)!!
 
 Solarized dark             |  Solarized Ocean          |  Bob                      | test
