@@ -4,7 +4,7 @@ This project provides a unique stitch counter for crocheting and knitting projec
 
 <a href='https://play.google.com/store/apps/details?id=com.buffed.stitch&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='100'/></a>
 
- App Screenshots           |                           |  App Screenshots          | .
+ App Screenshots           |       _                   |  _                        | _
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-144454.png)  |  ![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-132806.png) |  ![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-132834.png)  |  ![](https://github.com/erdavids/Minimalist-Stitch-Counter/blob/master/Screenshots/Screenshot_20190504-140725.png)
 ## User Guide
